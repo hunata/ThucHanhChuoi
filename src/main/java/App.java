@@ -3,8 +3,11 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         String s = inputString();
+        //Bài 1: In ra cac ký tự viết hoa
         printUppercase(s);
+        //Bài 2: In ra các ký tự không phải số
         printLetter(s);
+        //Bài 3: Kiểm tra ký tự c trong chuỗi s
         char c = inputChar();
         int count = countChar(s, c);
         if (count > 0) {
